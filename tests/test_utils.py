@@ -16,11 +16,11 @@ def test_modified_date():
 
 def test_bluring_cnumber():
     assert bluring_cnumber({"from": "Visa Platinum 1246377376343588"}) == "Visa Platinum 1246 37** **** 3588"
-
+# Не придумал как написать тест для n/a
 
 def test_bluring_anumber():
     assert bluring_anumber({"to": "Счет 75651667383060284188"}) == "**4188"
-
+# Не придумал как написать тест для n/a
 
 def test_get_formated_info():
     pass
